@@ -110,7 +110,7 @@ class FavoritesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     var listFavorites = context.watch<MyAppState>().favorites;
     if (listFavorites.isEmpty) {
-      return Center(child: Text('No hay favoritos'),);
+      return Center(child: Text('No hay favooritos'),);
     }
     return Column(
       children: [
